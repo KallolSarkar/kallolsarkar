@@ -203,4 +203,60 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
   color: #545e69;
   font-size: 24px;
 }
-/* About Section */
+/* //About Section */
+/*Ribbon*/
+.latest .has-ribbon {
+  position: relative;
+  display: inline-block;
+}
+
+.latest .has-ribbon .text {
+  background: #3AAA64;
+  color: #fff;
+}
+
+.latest .has-ribbon .ribbon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+}
+
+.latest .has-ribbon .ribbon .text {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: -8px;
+  top: 18px;
+  width: 158px;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #479FC8;
+  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+  transform:  rotate(45deg) translate3d(0, 0, 0);
+}
+
+.latest .has-ribbon .ribbon .text:before, .latest .has-ribbon .ribbon .text:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  border-top: 5px solid #276582;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.latest .has-ribbon .ribbon .text:before {
+  left: 0;
+}
+
+.latest .has-ribbon .ribbon .text:after {
+  right: 0;
+}
