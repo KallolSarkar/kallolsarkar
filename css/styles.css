@@ -1,3 +1,99 @@
+
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #434343;
+  background: #DAE3E7;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+
+a {
+  color: #3AAA64;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5f6b77;
+  color: #2d844e;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.btn, a.btn {
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.btn .svg-inline--fa, a.btn .svg-inline--fa {
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.btn:focus, a.btn:focus {
+  color: #fff;
+}
+
+a.btn-cta-primary, .btn-cta-primary {
+  background: #54ba4e;
+  border: 1px solid #54ba4e;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+a.btn-cta-primary:hover, .btn-cta-primary:hover {
+  background: #49ac43;
+  border: 1px solid #49ac43;
+  color: #fff;
+}
+
+a.btn-cta-secondary, .btn-cta-secondary {
+  background: #479FC8;
+  border: 1px solid #479FC8;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
+  background: #3893bd;
+  border: 1px solid #3893bd;
+  color: #fff;
+}
+
+.text-highlight {
+  color: #32383e;
+}
+
+
+.badge-theme {
+  background: #3AAA64;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+a.dotted-link {
+  border-bottom: 1px dotted #778492;
+  color: #778492;
+}
+
+a.dotted-link:hover {
+  text-decoration: none;
+  color: #49515a;
+}
+
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
@@ -107,7 +203,4 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
   color: #545e69;
   font-size: 24px;
 }
-
-
-
 /* About Section */
