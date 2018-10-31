@@ -260,3 +260,64 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 .latest .has-ribbon .ribbon .text:after {
   right: 0;
 }
+.latest .divider {
+  margin-bottom: 60px;
+}
+/*//Ribbon*/
+/* Letest */
+.latest .item {
+  margin-bottom: 30px;
+}
+
+.latest .item .title {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.latest .item .title .label {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.latest .item .title a {
+  font-size: 28px;
+    color: #2d844e;
+}
+
+.latest .item .title a:hover {
+  color: #07b047;
+}
+
+.latest .item .project-image:hover {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
+.latest .divider {
+  margin-bottom: 60px;
+}
+
+.latest .featured {
+  margin-bottom: 60px;
+}
+
+.latest .featured .title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.latest .featured .summary {
+  margin-bottom: 30px;
+  color: #778492;
+}
+
+.latest .featured img {
+  margin-bottom: 30px;
+}
+
+.latest .featured .desc {
+  margin-bottom: 30px;
+}
+/* //Letest */
