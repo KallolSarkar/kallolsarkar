@@ -166,6 +166,9 @@ a.dotted-link:hover {
     margin-top: 30px;
     float: none !important;
   }
+  .project-image {
+    margin-bottom: 15px;
+  }
   
 }
 /* ======= Header button ======= */
@@ -321,3 +324,7 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
   margin-bottom: 30px;
 }
 /* //Letest */
+/* Android projects*/
+#project-title{
+  font-size: 24px;
+}
