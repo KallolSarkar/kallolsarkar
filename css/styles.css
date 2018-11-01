@@ -422,3 +422,24 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 .list ul li a:hover {
   color: #49515a;
 }
+
+/* ======= Footer ======= */
+.footer {
+  background: #32383e;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer .copyright {
+  line-height: 1.6;
+  color: #a1aab4;
+  font-size: 17px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer .fa-heart {
+  color: #fb866a;
+}           
