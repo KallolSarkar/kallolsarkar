@@ -150,33 +150,7 @@ a.dotted-link:hover {
   font-size: 20px;
   margin-top: 8px;
 }
-@media (max-width: 767.98px) {
-  .header {
-    text-align: center;
-  }
-  .header .profile-image {
-    float: none !important;
-    margin: 0 auto;
-  }
-  .header .profile-content {
-    float: none !important;
-    text-align: center;
-  }
-  .header .btn {
-    margin-top: 30px;
-    float: none !important;
-  }
-  .project-image {
-    margin-bottom: 15px;
-  }
-  
-}
-@media(min-width: 1400px){
-  .container{
-    width: 1360px;
-    max-width: inherit;
-  }
-}
+
 /* ======= Header button ======= */
 a.btn-cta-primary, .btn-cta-primary {
   background: #54ba4e;
@@ -660,4 +634,35 @@ textarea.input100 {
     padding: 7px;
   }
 }
-
+@media(min-width: 1400px){
+  .container{
+    width: 1360px;
+    max-width: inherit;
+  }
+}
+@media (max-width: 767.98px) {
+  .header {
+    text-align: center;
+  }
+  .header .profile-image {
+    float: none !important;
+    margin: 0 auto;
+  }
+  .header .profile-content {
+    float: none !important;
+    text-align: center;
+  }
+  .header .btn {
+    margin-top: 30px;
+    float: none !important;
+  }
+  .project-image {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 970px) {
+    .container{
+        max-width: 100%;
+    }
+  
+}
