@@ -1,1 +1,5 @@
-Storeemail.php
+#for storing emails to db
+Storeemail.php 
+
+#for sending mails
+sendmail.php 
