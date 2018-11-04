@@ -626,15 +626,36 @@ textarea.input100 {
   color: #fff;
 
 }
+/* Notify me*/
+.border {
+    border: 4px solid #f1f1f1;
+}
+#notifyme{
+  margin: 8px 0px;
+  border: 1px solid #ccc;
+}
+#notify_a{
+  font-size: 18px;
+  color: #717271;
+}
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 5px 15px;
+}
 
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+/*[ Responsive ]*/
 @media (max-width: 1200px) {
     .container{
         max-width: 100%;
     }
   
 }
-
-/*[ Responsive ]*/
 
 @media (max-width: 576px) {
   .wrap-contact100 {
